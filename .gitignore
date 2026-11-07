@@ -3,6 +3,9 @@ bin/
 obj/
 out/
 
+# temp files
+*temp.cs
+
 # Rider / JetBrains
 .idea/
 *.DotSettings.user
