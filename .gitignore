@@ -1,0 +1,16 @@
+# Build results
+bin/
+obj/
+out/
+
+# Rider / JetBrains
+.idea/
+*.DotSettings.user
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# OS files
+.DS_Store
