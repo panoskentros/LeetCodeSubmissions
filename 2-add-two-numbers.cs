@@ -9,7 +9,7 @@ public class Solution {
             int x = (l1 != null) ? l1.val : 0;
             int y = (l2 != null) ? l2.val : 0;
 
-            int sum = x + y + carry;
+            int sum = x + y + carry; // max sum = 9+9 = 18 so max carry is single digit
             carry = sum / 10;
 
             current.next = new ListNode(sum % 10);
